@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  height: 74px;
+  /* background-color: rgb(255, 219, 219); */
+  /* border-radius: 10px; */
+}
+
+.nav-left {
+  font-size: 45px;
+  display: flex;
+}
+
+.nav-left img {
+  width: 85px;
+  display: flex;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 70px;
+  font-size: 18px;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+}
+
+.nav-left ul li:hover {
+  color: var(--main-bg-color);
+  font-weight: 900;
+}
+.nav-right {
+}
+
+.content {
+  height: 370px;
+  /* background-color: rgb(218, 218, 255); */
+  display: flex;
+  margin-top: 30px;
+  padding: 10px 0px;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  background-image: url(/img/11.svg);
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  background-size: cover;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.content-left {
+  font-family: var(--font1);
+  /* width: 50%; */
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* border: 2px solid yellow; */
+}
+
+.content-right {
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.content-right img {
+  height: 320px;
+  border: 2px solid black;
+  border-radius: 200px;
+}
+
+.home-articles {
+  background-color: rgb(223, 255, 250);
+  padding-top: 10px;
+  /* height: 455px; */
+}
+
+.home-articles h2 {
+  padding-left: 25px;
+}
+
+.home-article {
+  display: flex;
+  /* padding: 48px; */
+  margin: 25px;
+}
+
+.home-article img {
+  width: 300px;
+}
+
+.home-article-content {
+  align-self: center;
+  padding: 0px 25px;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-article {
+}
+.home-article {
+}
+
+.footer {
+  height: 34px;
+  background-color: rgb(159, 207, 80);
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
