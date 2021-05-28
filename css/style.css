@@ -9,7 +9,7 @@
   justify-content: space-between;
   margin-top: 20px;
   align-items: center;
-  height: 74px;
+  /* height: 74px; */
   /* background-color: rgb(255, 219, 219); */
   /* border-radius: 10px; */
 }
@@ -50,7 +50,7 @@
 }
 
 .content {
-  height: 370px;
+  height: 100%;
   /* background-color: rgb(218, 218, 255); */
   display: flex;
   margin-top: 30px;
@@ -79,6 +79,10 @@
   /* align-items: center; */
   justify-content: center;
   /* border: 2px solid yellow; */
+}
+
+.content-left p {
+  text-align: justify;
 }
 
 .content-right {
@@ -123,11 +127,6 @@
 .home-article-content a {
   text-decoration: none;
   color: black;
-}
-
-.home-article {
-}
-.home-article {
 }
 
 .footer {
